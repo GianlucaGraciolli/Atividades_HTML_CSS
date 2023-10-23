@@ -2,7 +2,8 @@ body{
     background-image: url("./../ex01/cabecalhos_back.png");
     background-repeat: repeat-y;   
     background-color: #fff6d8;
-    margin-left: 180px;            
+    margin-left: 180px;
+    margin-right: 50px;            
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;    
@@ -14,9 +15,35 @@ h1{
 
 p{
     text-indent: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 25px;
+    padding-left: 0px;
+    font-weight: 600;
+    line-height: 20px;
+    
+}
+
+h2 {
+    font-size: 50px;
+    color: #906718;
+    font-weight: bolder;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 35px;
+    background-color: #ffa500;
+    color: #ffffff;
+    padding: 5px;
+    
 }
 
 .linha{
     border-bottom: 3px dashed orange;
-    padding-bottom: 20px;
+    padding-bottom: 15px;
+}
+
+#paragrafo {
+    padding-top: 30px;   
 }
