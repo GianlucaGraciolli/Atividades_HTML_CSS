@@ -8,9 +8,10 @@ body{
 
 main {
     box-sizing: border-box;
-    width: 50%;
+    width: 50vw;
     margin: auto;
     background-color: #daff95;
+    margin-bottom: 5vw;
 }
 
 h1 {
@@ -50,6 +51,17 @@ h2 {
 .lista1 .sublista li {
     background-image: url("../Images/torta_limao_item3.gif");
     background-repeat: no-repeat;
-    margin: 5px 0px 5px 15px;
+    margin: 5px 0px 0px 15px;
     padding-left: 15px;
+    margin-bottom: 0;
 }
+
+.lista1 li {
+    background-image: url("../Images/torta_limao_item3.gif");
+    background-repeat: no-repeat;
+    margin: 5px 0px 0px 15px;
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+
+
